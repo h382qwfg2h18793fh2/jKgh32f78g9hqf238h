@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Redirect otomatis -->
+  <meta http-equiv="refresh" content="0; url=https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstwomT4chiK1u68tH4ekrXCce-nSfwSa4ThwtDJ-kznXNpgD5u_zo-zQSxr_9RjkqwNoDVi08efrU9rAAlqd3t2XSfpY6weS9fIG_j3M2T3G7Bm_PpngK5Qgb03T2-tywI224m9ppZNNdplZY3pCNsbDfd050jvQbj0PzbY5xj1pDyiZcWk_O9W-pWDn9HBWeAv4fpNg44uNtXhICwavChAfRF1AI0jX5e6jj2xvef2uGaWM49Uk6nedvNU6xL-SRsTbElrEo_HUWMFDmbGsAQ_n747KxeWP3XrwgYc9f8zaRfmbf6Z7CThDGegZumomL8OQA6Dgy3YjdGTR-G5jg1CKwoghMUirBd4qNc83RNySqA6OPq5Ylkba__oYREU6AX2R_Bzxq8ALrW5li36Ud1SlZME58lKOGeUv1pdI9mchfVDamxDUa-pQTYR0SQFC1crgyMD9JcQmQ&sai=AMfl-YThoewsJ7zO2r3A7pN847VrIQbl6TU8FaIjbKJswDoO7FaaJfqbu6CGw0Fq7sDmCVQkl_bUpgnKXmQ3u6Otajt5vWJeASdoIk8TifCkyLZ8Yd2TXdBn7TXTKhhqwdErTJyPa2M7FgLYDyuMQOMDyLf2ZN81iYYxmsDksxLcffZ6zKEo-Q9PxBit5sK61MAdVdkrySqbMDPwGan-S2usSOXIIWZWlWgOpwY1PpD9Ra4joqJPpAck1zScs2EF-1ofobeh_4f0BHy35ENZWNRt1AhJr4bmOGY&sig=Cg0ArKJSzL60PLn5LYGY&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://o2o.to/i/601XYKPQHJLT">
+
+  <meta name="robots" content="noindex">
+  <meta http-equiv="referrer" content="no-referrer">
+
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: #232f3e;
+    }
+
+    .spinner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .loader {
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #ff9900; /* Amazon orange */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .text {
+      font-size: 15px;
+      letter-spacing: 0.3px;
+    }
+  </style>
+
+  <script>
+    // Fallback JS redirect (lebih cepat dari meta)
+    window.onload = function () {
+      const target = "https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstwomT4chiK1u68tH4ekrXCce-nSfwSa4ThwtDJ-kznXNpgD5u_zo-zQSxr_9RjkqwNoDVi08efrU9rAAlqd3t2XSfpY6weS9fIG_j3M2T3G7Bm_PpngK5Qgb03T2-tywI224m9ppZNNdplZY3pCNsbDfd050jvQbj0PzbY5xj1pDyiZcWk_O9W-pWDn9HBWeAv4fpNg44uNtXhICwavChAfRF1AI0jX5e6jj2xvef2uGaWM49Uk6nedvNU6xL-SRsTbElrEo_HUWMFDmbGsAQ_n747KxeWP3XrwgYc9f8zaRfmbf6Z7CThDGegZumomL8OQA6Dgy3YjdGTR-G5jg1CKwoghMUirBd4qNc83RNySqA6OPq5Ylkba__oYREU6AX2R_Bzxq8ALrW5li36Ud1SlZME58lKOGeUv1pdI9mchfVDamxDUa-pQTYR0SQFC1crgyMD9JcQmQ&sai=AMfl-YThoewsJ7zO2r3A7pN847VrIQbl6TU8FaIjbKJswDoO7FaaJfqbu6CGw0Fq7sDmCVQkl_bUpgnKXmQ3u6Otajt5vWJeASdoIk8TifCkyLZ8Yd2TXdBn7TXTKhhqwdErTJyPa2M7FgLYDyuMQOMDyLf2ZN81iYYxmsDksxLcffZ6zKEo-Q9PxBit5sK61MAdVdkrySqbMDPwGan-S2usSOXIIWZWlWgOpwY1PpD9Ra4joqJPpAck1zScs2EF-1ofobeh_4f0BHy35ENZWNRt1AhJr4bmOGY&sig=Cg0ArKJSzL60PLn5LYGY&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://o2o.to/i/601XYKPQHJLT";
+      window.location.href = target;
+    };
+  </script>
+</head>
+
+<body>
+  <div class="spinner">
+    <div class="loader"></div>
+    <div class="text">Loading...</div>
+  </div>
+</body>
+</html>
